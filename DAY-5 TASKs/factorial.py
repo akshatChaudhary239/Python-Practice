@@ -1,0 +1,10 @@
+# Create a function which finds the factorial of a number
+def factorial(n):
+    
+    fact = 1
+    for i in range(1,n+1):
+        fact = fact*i
+    return(fact)   
+n = int(input("enter a number "))
+result = factorial(n)
+print(result)
